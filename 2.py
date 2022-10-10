@@ -13,7 +13,7 @@ class Road:
         self._length = length
         self._width = width
 
-    def func(self, weigtht, hights):
-        return round(self._length*self._width*weigtht*hights/1000)
+    def func(self, weight, height):
+        return round(self._length*self._width*weight*height/1000)
 a = Road(5000, 20)
 print(f'asphalt_weight = {a.func(25, 5)} ton')
